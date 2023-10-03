@@ -1,0 +1,43 @@
+body{
+    background-color: #191919;
+}
+
+.moves{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.move_heading{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.move{
+    color: black;
+    font-family: 'Cascadia Code';
+    font-size: x-large;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(180, 255, 249);
+    border-radius: 12px;
+    text-align: center;
+}
+
+@keyframes spin_animation{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#spinner{
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    animation: spin_animation 1.5s infinite forwards;
+    border: solid 6px;
+    border-radius: 50%;
+    border-color: #fff transparent #fff transparent;
+}
