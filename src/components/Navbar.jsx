@@ -6,7 +6,7 @@ export default function Navbar(props) {
         <div>
             <nav className="navbar navbar-expand-md navbar-dark bg-dark" id="account">
             <div className="container-fluid">
-            <a className="navbar-brand home_link" href="/">
+            <a className="navbar-brand home_link" aria-label="Home link" href="/">
                 <img className="rounded" src="https://img1.pnghut.com/24/4/12/JKpYwZFW6A/symbol-orange-gotcha-pokemon-niantic.jpg" alt="" width="45" height="45" />
             </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
